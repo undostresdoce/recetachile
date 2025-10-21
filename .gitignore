@@ -1,23 +1,56 @@
+# Sistema operativo
 .DS_Store
-node_modules
-/dist
+Thumbs.db
 
+# Dependencias
+node_modules/
 
-# local env files
+# Compilación
+/dist/
+/build/
+
+# Archivos de entorno local
 .env.local
 .env.*.local
+.env
 
-# Log files
+# Archivos de log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# Editor directories and files
-.idea
-.vscode
+# Archivos de cobertura de pruebas
+coverage/
+*.lcov
+
+# Caché de herramientas
+.cache/
+.vite/
+vite.config.ts
+
+# Archivos de editores
+.idea/
+.vscode/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# Archivos de lock alternativos
+yarn.lock
+pnpm-lock.yaml
+
+# Archivos de configuración temporal
+*.log
+*.tmp
+*.bak
+
+# Archivos de pruebas
+tests/e2e/reports/
+cypress/screenshots/
+cypress/videos/
+
+# Archivos de sistema de control
+.git/
